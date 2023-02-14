@@ -1,3 +1,6 @@
+#Day 3 TREASURE ISLAND 
+#The goal is to find the trasure from the image below , I have used control statements.
+
 print('''
 *******************************************************************************
           |                   |                  |                     |
@@ -23,9 +26,6 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
-#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
-
-#Write your code below this line 👇
 choice_1 = input('Your in a situation to choose between left or right ! Go ahead and make a wise choice.Type "left" or "right".\n').lower()
 
 if choice_1 == "left":
@@ -46,5 +46,37 @@ if choice_1 == "left":
 else:
     print("You have fell into a hole ! Sorry Try again")
 
+#OUTPUT
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
 
+Welcome to Treasure Island.
+Your mission is to find the treasure.
+Your in a situation to choose between left or right ! Go ahead and make a wise choice.Type "left" or "right".
+left
+Hooray ! You have passed the level 1.
+Now you have to cross the island ! Do you want to wait or swim. Type "wait" or "swim".
+wait
+Congratulations ! You have come the last level !
+There are three doors before you. RED , BLUE and YELLOW. What are you going to choose.Type "Red", "Blue" or "Yellow".
+blue
+Yayyyy !! You have found the treasure. Good job.
 
